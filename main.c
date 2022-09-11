@@ -114,6 +114,7 @@ int main(int argc, char** argv) {
 		}
 		else if(*word /* EOF */ && !loop_skip && !comment_skip) {
 			printf("Unknown instruction: %s\n", word);
+			return 3;
 		}
 	}
 
