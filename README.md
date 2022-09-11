@@ -29,13 +29,17 @@ This repository contains the language itself as well as the bf2wysi converter
 
 ### Comments
 
-Comments are broken. But if you really want to comment your "code", escape each word like this:
+Comment sections are defined like this:
 
 ```
-\this \is \a \test\ com \ment
+[[ This is a test comment! ]]
 ```
 
-Not only that, but no word can be longer than 6 symbols. Yeah, I'm really good at programming. (Actually this is really easy to change and I will do it in future)
+They can also be nested:
+
+```
+[[ [[ hello ]] world! ]]
+```
 
 ### Credits
 
