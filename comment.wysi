@@ -1,0 +1,13 @@
+[[
+	Hello world!
+	[[
+		This is a nested comment!
+		Comments can also contain words that are waaaaaaaaaaaay bigger than 6 symbols
+	]]
+	test
+]]
+
+727
+Fun fact: loops that will not be executed can also be used as comment sections.
+It's a bug though
+wysi
